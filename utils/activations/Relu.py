@@ -1,4 +1,4 @@
-##Activation Functions
+import numpy as np
 class Relu:
     def __call__(self, x):
         self.last_input = x

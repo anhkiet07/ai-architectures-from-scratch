@@ -1,3 +1,4 @@
+import numpy as np
 class Tanh:
     def __call__(self, x):
         self.last_input = x
